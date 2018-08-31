@@ -8,6 +8,13 @@
 @import "./_bootstrap/forms";
 @import "./_bootstrap/buttons";
 
+* {
+  outline: none !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
 
 /* HEADER =========================================================================================================== */
 .header {
@@ -15,7 +22,10 @@
 }
 /* FOOTER =========================================================================================================== */
 .footer {
-
+  border-top: 1px solid #f5f5f8;
+  margin: 3rem 0 0;
+  padding: 3rem 0 0;
+  min-height: 250px;
 }
 /* MEDIA QUERIES ==================================================================================================== */
 @media (max-width: 575.98px) {  }
