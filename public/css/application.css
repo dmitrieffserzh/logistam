@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700);/*!
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600&subset=cyrillic-ext);/*!
  * Bootstrap Reboot v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -4244,10 +4244,25 @@ body {
   z-index: 100;
 }
 
-/* FOOTER =========================================================================================================== */
+/* COMTENT =========================================================================================================== */
 
 .content {
   min-height: 65vh;
+}
+
+.section {
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.section-header__title {
+  margin: 12rem 0 1rem;
+  font-size: 2rem;
+}
+
+.section-header__subtitle {
+  margin: 0 0 2rem;
+  width: 100%;
 }
 
 /* FOOTER =========================================================================================================== */

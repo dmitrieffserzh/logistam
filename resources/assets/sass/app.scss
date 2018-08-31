@@ -1,6 +1,6 @@
 
 // FONTS
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&subset=cyrillic-ext');
 
 // BOOTSTRAP
 @import "./_bootstrap/bootstrap-reboot";
@@ -27,9 +27,27 @@ body {
   z-index: 100;
 }
 
-/* FOOTER =========================================================================================================== */
+/* COMTENT =========================================================================================================== */
 .content {
   min-height: 65vh;
+}
+
+// SECTIONS >> ========================================================================================================/
+.section {
+  margin: 0;
+  padding: 3rem 0;
+
+  // TITLE SECTIONS
+  &-header {
+    &__title {
+      margin: 12rem 0 1rem;
+      font-size: 2rem;
+    }
+    &__subtitle {
+      margin: 0 0 2rem;
+      width: 100%;
+    }
+  }
 }
 
 /* FOOTER =========================================================================================================== */
