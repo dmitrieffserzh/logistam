@@ -48,7 +48,7 @@ body {
   line-height: 1.5;
   color: #415365;
   text-align: left;
-  background-color: #F8F9FB;
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -3219,8 +3219,8 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before,
 .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #F8F9FB, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-          box-shadow: 0 0 0 1px #F8F9FB, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label,
@@ -3343,8 +3343,8 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before,
 .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #F8F9FB, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 1px #F8F9FB, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label,
@@ -4233,12 +4233,30 @@ body {
 
 /* HEADER =========================================================================================================== */
 
+.header {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  height: 60px;
+  width: 100%;
+  -webkit-box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+/* FOOTER =========================================================================================================== */
+
+.content {
+  min-height: 65vh;
+}
+
 /* FOOTER =========================================================================================================== */
 
 .footer {
-  border-top: 1px solid #f5f5f8;
+  border-top: 1px solid #e0eaf1;
+  background: #fdfdff;
   margin: 3rem 0 0;
-  padding: 3rem 0 0;
+  padding: 1.5rem 0 0;
   min-height: 250px;
 }
 
