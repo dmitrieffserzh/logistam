@@ -4244,7 +4244,7 @@ body {
   z-index: 100;
 }
 
-/* COMTENT =========================================================================================================== */
+/* COMTENT ========================================================================================================== */
 
 .content {
   min-height: 65vh;
@@ -4257,7 +4257,10 @@ body {
 
 .section-header__title {
   margin: 12rem 0 1rem;
-  font-size: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000;
+  text-transform: uppercase;
 }
 
 .section-header__subtitle {
