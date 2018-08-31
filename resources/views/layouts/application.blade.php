@@ -19,7 +19,7 @@
         </header>
 
         <div class="container">
-            <div id="content" class="row no-gutters">
+            <div id="content" class="content row no-gutters">
                 <main class="main col-md-12">
                     @yield('content')
                 </main>
